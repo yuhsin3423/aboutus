@@ -1,0 +1,357 @@
+body {
+    margin: 0px 0px;
+    margin-top: 30px;
+    font-family: Arial, '微軟正黑體', sans-serif;
+    
+}
+
+
+
+
+
+
+
+
+header {
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color:  #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*細節設計*/
+
+
+#banner{
+   float: left;
+}
+
+#banner h1 {
+   margin:0;
+}
+
+
+#banner img{
+   vertical-align: bottom;
+   width: 332px;
+}
+
+
+/*header nav*/
+/* 可用google font 尋找喜歡的瀏覽器字體 https://fonts.google.com/ */
+
+
+nav{
+   float: right;
+   font-size: 15px;
+   font-family: 'STHeiti', sans-serif;
+   padding-top: 30px;
+}
+
+
+nav ul {
+   margin: 0;
+   padding: 0;
+}
+
+
+
+
+
+nav li{
+   list-style-type: none;
+   float: left;
+}
+
+
+
+nav li a {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-bottom: solid 3px transparent;
+    color: #000000;
+}
+
+nav li a {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-bottom: solid 3px transparent;
+    color: #000000;
+}
+
+
+main .view-first img {
+    float: left;
+    vertical-align: bottom;
+    width: 450px;
+}
+
+
+
+main{
+  background-color:  #009FCC;
+  margin-bottom: 0px;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+#teamname{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-align:center;
+
+}
+
+.aboutus img{
+  width: 200px;
+  height: 200px;
+}
+
+.aboutus{
+  float: left; 
+  margin-right: 50px;
+  margin-bottom: 50px;
+  display:flex;
+
+}
+
+.aboutus .informa{
+  width: 50%;
+  display:block;
+  align-self:center;
+  float: right;
+  margin-left: 30px;
+}
+
+.informa a{
+  color: #000000;
+}
+
+
+
+.informa h2{
+  color: #000000;
+  font-weight:bold;
+  font-size: 30px;
+}
+
+.informa p{
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#container{
+  margin: 50px;
+  margin-bottom: 50px;
+
+
+}
+
+
+
+
+
+
+/*  HEADERPOST LEAD
+
+#topnews #lead {
+    float: left;
+    width: 300px;
+    color: #ffffff;
+    margin-left: 25px;
+}
+
+#topnews h2 {
+    margin: 20px 0;
+}
+
+#topnews .more {
+    font-size: 18px;
+    font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
+    text-align: right;
+}
+
+
+
+/* 用CSS寫按鈕!!!這邊先暫且依樣畫葫蘆，之後會教大家Bootstrap，就不用用CSS刻很久了
+
+#topnews .more a {
+    color: #ffffff;
+    background-image: url(img/more.png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: block;
+    padding: 10px 40px 10px 0;
+    text-decoration: none;
+}
+
+
+
+/* 用CSS做漸層!!!這邊先暫且依樣畫葫蘆，之後會教大家Bootstrap，就不用用CSS刻很久了
+
+#topnews {
+    background-color: #333333;
+    background: -webkit-gradient(linear, left top, left bottom, from(#CC6600), to(#FFFFFF));
+    background: -webkit-linear-gradient(#CC6600 0%, #FFFFFF 100%);
+    background: -moz-linear-gradient(#CC6600 0%, #FFFFFF 100%);
+    background: -o-linear-gradient(#CC6600 0%, #FFFFFF 100%);
+    background: -ms-linear-gradient(#CC6600 0%, #FFFFFF 100%);
+    background: linear-gradient(#CC6600 0%, #FFFFFF 100%);
+    overflow: hidden;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* ### FOOTER ###*/
+
+footer{
+  background-color:  #4682B4;
+  margin-bottom: 0px;
+  overflow: hidden;
+  width: 100%;
+  height: 160px;
+
+}
+
+
+
+
+
+
+
+footer {
+    
+    padding: 5px;
+}
+
+
+
+#iconmenu {
+    float: left;
+}
+
+#iconmenu ul {
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 3px 0 0;
+}
+
+#iconmenu li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 5px;
+}
+
+#iconmenu img {
+    border: none;
+    width: 25px;
+}
+
+
+
+
+#submenu {
+    clear: both;
+    font-family: 'Maven Pro', Helvetica, Arial, san-serif;
+    font-size: 12px;
+    overflow: hidden;
+    float: left;
+
+}
+/*
+#submenu ul {
+    margin: 3px;
+    padding: 0;
+}
+
+#submenu li {
+    list-style-type: none;
+    float: left;
+}
+
+#submenu li a {
+    display: block;
+    width: auto;
+    border-right: solid 1px #ffffff;
+    text-align: center;
+    text-decoration: none;
+    color: #99FF99;
+    font-weight: bold;
+    padding-right: 6px;
+    margin-right: 3px;
+}
+
+#submenu li:last-child a {
+    border: none;
+}
+
+#submenu li+li+li a {
+    border: none;
+}
+*/
+
+#submenu{
+    font-size: 12px;
+    display: block;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+#submenu a{
+  color: #FFC0CB;
+}
+
+
+
+
+.rely_1 img {
+    max-width: 100%;
+    height: auto;
+  }
