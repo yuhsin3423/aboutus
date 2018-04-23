@@ -49,7 +49,7 @@ header {
 /*header nav*/
 /* 可用google font 尋找喜歡的瀏覽器字體 https://fonts.google.com/ */
 
-
+/*
 nav{
    float: right;
    font-size: 15px;
@@ -93,19 +93,17 @@ nav li a {
     border-bottom: solid 3px transparent;
     color: #000000;
 }
+*/
 
 
-main .view-first img {
-    float: left;
-    vertical-align: bottom;
-    width: 450px;
-}
+
+
+
 
 
 
 main{
   background-color:  #009FCC;
-  margin-bottom: 0px;
   overflow: hidden;
   max-width: 100%;
   height: auto;
@@ -124,24 +122,29 @@ main{
 }
 
 .aboutus img{
-  width: 200px;
-  height: 200px;
+  width: 60%;
+  height: auto;
+  position: relative;
+  display: block;
+  float: left;
 }
 
 .aboutus{
   float: left; 
-  margin-right: 50px;
-  margin-bottom: 50px;
-  display:flex;
+  margin: 20px;
+  margin-bottom: 20px;
+  background-size: 100px 30%;
+  display: block;
+  margin: 30px;
 
 }
 
 .aboutus .informa{
-  width: 50%;
-  display:block;
   align-self:center;
-  float: right;
-  margin-left: 30px;
+  display: block; 
+  position: relative;
+  float: left;
+  margin: 10px;
 }
 
 .informa a{
@@ -176,6 +179,9 @@ main{
 #container{
   margin: 50px;
   margin-bottom: 50px;
+  position: relative;
+  left:50;
+  top:50;
 
 
 }
@@ -185,56 +191,7 @@ main{
 
 
 
-/*  HEADERPOST LEAD
 
-#topnews #lead {
-    float: left;
-    width: 300px;
-    color: #ffffff;
-    margin-left: 25px;
-}
-
-#topnews h2 {
-    margin: 20px 0;
-}
-
-#topnews .more {
-    font-size: 18px;
-    font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
-    text-align: right;
-}
-
-
-
-/* 用CSS寫按鈕!!!這邊先暫且依樣畫葫蘆，之後會教大家Bootstrap，就不用用CSS刻很久了
-
-#topnews .more a {
-    color: #ffffff;
-    background-image: url(img/more.png);
-    background-size: 28px;
-    background-repeat: no-repeat;
-    background-position: right center;
-    display: block;
-    padding: 10px 40px 10px 0;
-    text-decoration: none;
-}
-
-
-
-/* 用CSS做漸層!!!這邊先暫且依樣畫葫蘆，之後會教大家Bootstrap，就不用用CSS刻很久了
-
-#topnews {
-    background-color: #333333;
-    background: -webkit-gradient(linear, left top, left bottom, from(#CC6600), to(#FFFFFF));
-    background: -webkit-linear-gradient(#CC6600 0%, #FFFFFF 100%);
-    background: -moz-linear-gradient(#CC6600 0%, #FFFFFF 100%);
-    background: -o-linear-gradient(#CC6600 0%, #FFFFFF 100%);
-    background: -ms-linear-gradient(#CC6600 0%, #FFFFFF 100%);
-    background: linear-gradient(#CC6600 0%, #FFFFFF 100%);
-    overflow: hidden;
-}
-
-*/
 
 
 
@@ -355,3 +312,61 @@ footer {
     max-width: 100%;
     height: auto;
   }
+
+
+
+
+
+  /* Dropdown Button */
+.dropbtn {
+    background-color:   #7AB8CC ;
+    color: black;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'cwTeXYen', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color:   #7AB8CC ;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    float: right;
+    right: 0;
+    top: 150px;
+    z-index: 50;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    font-family: 'cwTeXYen', sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
